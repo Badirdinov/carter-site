@@ -1,19 +1,19 @@
 import * as React from 'react';
 import Link from 'next/link';
-import styles from '@/styles/brands.module.scss'
+import styles from '../../styles/brands.module.scss'
 import Image from 'next/image'
-import Brand1 from '@/public/brand-1.png'
-import Brand2 from '@/public/brand-2.png'
-import Brand3 from '@/public/brand-3.png'
-import Brand4 from '@/public/brand-4.png'
-import Brand5 from '@/public/brand-5.png'
-import Brand6 from '@/public/brand-6.png'
-import Brand7 from '@/public/brand-7.png'
-import Brand8 from '@/public/brand-8.png'
-import Brand9 from '@/public/brand-9.png'
-import Brand10 from '@/public/brand-10.png'
-import Brand11 from '@/public/brand-11.png'
-import Arrow from '@/public/arrow.svg'
+import Brand1 from '../../public/brand-1.png'
+import Brand2 from '../../public/brand-2.png'
+import Brand3 from '../../public/brand-3.png'
+import Brand4 from '../../public/brand-4.png'
+import Brand5 from '../../public/brand-5.png'
+import Brand6 from '../../public/brand-6.png'
+import Brand7 from '../../public/brand-7.png'
+import Brand8 from '../../public/brand-8.png'
+import Brand9 from '../../public/brand-9.png'
+import Brand10 from '../../public/brand-10.png'
+import Brand11 from '../../public/brand-11.png'
+import Arrow from '../../public/arrow.svg'
 
 
 

@@ -1,0 +1,34 @@
+[
+    { 
+        "name": "Afghanistan", 
+        "independent": false 
+    },
+    { 
+        "name": "Åland Islands", 
+        "independent": false 
+    },
+    { 
+        "name": "Albania", 
+        "independent": false 
+    },
+    { 
+        "name": "Algeria", 
+        "independent": false 
+    },
+    { 
+        "name": "American Samoa", 
+        "independent": false 
+    },
+    { 
+        "name": "Andorra", 
+        "independent": false 
+    },
+    { 
+        "name": "Angola", 
+        "independent": false 
+    },
+    { 
+        "name": "Anguilla", 
+        "independent": false 
+    }
+]

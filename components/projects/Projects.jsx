@@ -1,12 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
-import styles from '@/styles/projects.module.scss'
+import styles from '../../styles/projects.module.scss'
 import Link from 'next/link'
-import LinkArrow from '@/public/linkArrow.svg'
-import Project1 from '@/public/project1.png'
-import ArrowLeft from '@/public/arrowBtnLeft.svg'
-import ArrowRight from '@/public/arrowBtnRight.svg'
-import Project2 from '@/public/project2.png'
+import LinkArrow from '../../public/linkArrow.svg'
+import Project1 from '../../public/project1.png'
+import ArrowLeft from '../../public/arrowBtnLeft.svg'
+import ArrowRight from '../../public/arrowBtnRight.svg'
+import Project2 from '../../public/project2.png'
 
 var $ = require("jquery");
 if (typeof window !== "undefined") {

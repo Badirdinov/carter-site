@@ -1,10 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
-import styles from '@/styles/aboutUs.module.scss'
-import Vk from '@/public/vkontacte.svg'
-import Instagram from '@/public/instagram.svg'
-import Facebook from '@/public/facebook.svg'
-import Telegram from '@/public/telegram.svg'
+import styles from '../../styles/aboutUs.module.scss'
+import Vk from '../../public/vkontacte.svg'
+import Instagram from '../../public/instagram.svg'
+import Facebook from '../../public/facebook.svg'
+import Telegram from '../../public/telegram.svg'
 import Link from 'next/link'
 
 

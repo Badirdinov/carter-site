@@ -65,6 +65,8 @@
                                 font-size: 32px;
                                 line-height: 130%;
                                 color: #002656;
+                                display: flex;
+                                align-items: center;
 
                                 img {
                                     margin-left: 22px;
@@ -101,6 +103,7 @@
                 &:hover {
 
                     .brand__hover {
+                        transition: 0.3s linear;
                         display: block;
                     }
                 }
@@ -127,6 +130,9 @@
                                 font-size: 32px;
                                 line-height: 130%;
                                 color: #002656;
+                                color: #002656;
+                                display: flex;
+                                align-items: center;
 
                                 img {
                                     margin-left: 22px;

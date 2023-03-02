@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import styles from '@/components/footer/footer.module.scss'
-import Logo from '@/public/logo.svg'
-import Text from '@/public/text.svg'
+import styles from '../footer/footer.module.scss'
+import Logo from '../../public/logo.svg'
+import Text from '../../public/text.svg'
 
 
 

@@ -1,24 +1,30 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": true,
+    "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
+    "incremental": true,
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve",
-    "incremental": true,
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./*"]
-    }
+    "jsx": "preserve"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/slider/VerticalCarousel.js", "components/slider/Slide.js", "components/slider/Exempl.js", "components/projects/Projects.jsx", "components/Slider.jsx", "components/catalog/CatalogItem.js", "components/aboutUs/AboutUs.jsx", "components/brands/brandItem.jsx", "pages/_app.jsx", "pages/_document.jsx", "pages/index.jsx", "pages/Catalog.jsx", "components/visualChoosing/VisualChoosing.jsx", "components/main/Main.jsx", "components/brands/Brands.jsx", "components/layout/Layout.jsx", "components/header/Header.jsx", "components/footer/Footer.jsx", "components/catalog/CatalogItem.jsx"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.jsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import styles from '@/components/header/header.module.scss'
-import Logo from '@/public/logo.svg'
-import Text from '@/public/text.svg'
+import styles from '../header/header.module.scss'
+import Logo from '../../public/logo.svg'
+import Text from '../../public/text.svg'
 import Link from 'next/link'
 
 
@@ -32,7 +32,7 @@ const NAV__LINK = [
 export default function Header() {
     return (
         <div className={styles.headers}>
-            <div className={styles.container}>
+            <div className="max-w-[1820px] my-0 mx-auto relative w-full">
                 <div className={styles.header}>
                     <div className={styles.header__item}>
                         <div className={styles.logo}>

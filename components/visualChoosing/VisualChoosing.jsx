@@ -1,12 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
-import styles from '@/styles/visual-choosing.module.scss'
+import styles from '../../styles/visual-choosing.module.scss'
 import Link from 'next/link'
 
-import Choosing1 from '@/public/choosing1.png'
-import Choosing2 from '@/public/choosing2.png'
-import Choosing3 from '@/public/choosing3.png'
-import Choosing4 from '@/public/choosing4.png'
+import Choosing1 from '../../public/choosing1.png'
+import Choosing2 from '../../public/choosing2.png'
+import Choosing3 from '../../public/choosing3.png'
+import Choosing4 from '../../public/choosing4.png'
 
 
 

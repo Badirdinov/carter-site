@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import styles from '@/components/main/main.module.scss'
+import styles from '../main/main.module.scss'
 
-import CardSvg from '@/public/detils.svg'
+import CardSvg from '../../public/detils.svg'
 
 
 

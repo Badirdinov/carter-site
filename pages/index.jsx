@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
-import Main from '@/components/main/Main'
-import Brands from '@/components/brands/Brands'
-import VisualChoosing from '@/components/visualChoosing/VisualChoosing'
-import AboutUs from '@/components/aboutUs/AboutUs'
-import Projects from '@/components/projects/Projects'
+import Main from '../components/main/Main'
+import Brands from '../components/brands/Brands'
+import VisualChoosing from '../components/visualChoosing/VisualChoosing'
+import AboutUs from '../components/aboutUs/AboutUs'
+import Projects from '../components/projects/Projects'
 
 
 
