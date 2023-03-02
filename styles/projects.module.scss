@@ -1,0 +1,96 @@
+.container {
+    max-width: 1820px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+
+    .projects {
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #A6B5CA;
+        overflow: hidden;
+
+        .projects__item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 90px 197px 92px 69px;
+
+            h3 {
+                max-width: 558px;
+                width: 100%;
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 120%;
+                color: #3D3D3D;
+            }
+
+            .suptitle {
+                max-width: 711px;
+
+
+                p {
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 150%;
+                    letter-spacing: 0.04em;
+                    color: #636363;
+                    margin-bottom: 12px;
+                }
+
+                a {
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 150%;
+                    color: #363636;
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        margin-left: 16px;
+                    }
+                }
+            }
+        }
+
+        .corusel {
+            display: flex;
+            margin: 108px 0 51px 0;
+            gap: 60px;
+
+            .corusel__img {
+                position: relative;
+
+                .img__item {
+                    position: absolute;
+                    top: -14px;
+                    left: -14px;
+                    padding: 7px 16px;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 150%;
+                    background: #FFFFFF;
+                    border: 1px solid #000000;
+                }
+            }
+        }
+
+        .corusel__btns {
+            margin: 40px 20px 51px 0;
+
+            .corusel__btn {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                gap: 32px;
+            }
+
+            button {
+                padding: 13px 17px;
+                background: #FFFFFF;
+                border: 1px solid #000000;
+                cursor: pointer;
+            }
+        }
+    }
+}

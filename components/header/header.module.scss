@@ -1,0 +1,104 @@
+.headers {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    z-index: 10;
+    .container {
+        max-width: 1820px;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+
+        .header {
+            max-width: 1820px;
+            width: 100%;
+            margin-top: 20px;
+            border: 1px solid #A6B5CA;
+
+            .header__item {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-left: 70px;
+                .burgerMenu{
+                    display: none;
+                }
+
+                .logo {
+                    position: relative;
+                    top: -7px;
+
+                    .supLogo {
+                        position: absolute;
+                        top: -13px;
+                        right: -28px;
+                    }
+                }
+
+                .navigation {
+                    display: flex;
+                    align-items: center;
+                    gap: 195px;
+
+                    nav {
+                        display: flex;
+                        gap: 68px;
+                    }
+
+                    a {
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 30px;
+                        color: #3D3D3D;
+
+                        &:hover,
+                        .activ {
+                            color: #2A96CD;
+                        }
+                    }
+                }
+
+                button {
+                    background: #385981;
+                    padding: 23px 56px;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 30px;
+                    border: none;
+                    color: #FFFFFF;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media all and (width: 1536px) {}
+
+@media all and (max-width: 1328px) {
+    .headers {
+        .container {
+            .header {
+                .header__item {
+                    .navigation {
+                        
+                        nav{
+                            display: none;
+                        }
+                        button{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (width: 1024px) {}
+
+@media all and (width: 768px) {}
+
+@media all and (width: 640px) {}

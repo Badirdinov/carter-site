@@ -1,0 +1,103 @@
+.main__container {
+    max-width: 1820px;
+    width: 100%;
+    margin: 0 auto;
+
+
+    .main {
+        border-width: 0px 1px 1px 1px;
+        border-style: solid;
+        border-color: #A6B5CA;
+        display: flex;
+        align-items: flex-end;
+        padding: 225px 111px 101px 112px;
+        gap: 180px;
+
+        .main__title {
+            h1 {
+                max-width: 700px;
+                width: 100%;
+                font-weight: 600;
+                font-size: 100px;
+                line-height: 112px;
+                color: #3D3D3D;
+                margin-bottom: 163px;
+            }
+
+            .main__suptitle {
+                display: flex;
+                align-items: center;
+                column-gap: 49px;
+                flex-wrap: wrap;
+                row-gap: 38px;
+
+                .main__card {
+                    max-width: 441px;
+                    width: 100%;
+
+                    img {
+                        max-width: 100px;
+                        width: 100%;
+                        margin-bottom: 18px;
+                    }
+
+                    p {
+                        font-weight: 400;
+                        font-size: 22px;
+                        line-height: 150%;
+                        letter-spacing: 0.04em;
+                        color: #636363;
+                    }
+                }
+
+                .main__card_2 {
+                    max-width: 337px;
+                    width: 100%;
+
+                    img {
+                        max-width: 100px;
+                        width: 100%;
+                        margin-bottom: 18px;
+                    }
+
+                    p {
+                        font-weight: 400;
+                        font-size: 22px;
+                        line-height: 150%;
+                        letter-spacing: 0.04em;
+                        color: #636363;
+                    }
+                }
+            }
+        }
+    }
+
+    .main__slider {
+        padding-bottom: 77px;
+        .box__slider {
+            width: 468px;
+            height: 764px;
+            background: radial-gradient(56.54% 56.54% at 50% 50%, #3E6EA9 0%, #385981 100%);
+            border-radius: 226px;
+        }
+    }
+}
+
+
+@media all and (max-width: 1570px) {
+    .main__container {
+        .main {
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media all and (max-width: 1328px) {
+    
+}
+
+@media all and (width: 1024px) {}
+
+@media all and (width: 768px) {}
+
+@media all and (width: 640px) {}
