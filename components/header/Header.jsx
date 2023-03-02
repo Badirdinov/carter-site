@@ -16,11 +16,11 @@ const NAV__LINK = [
         display: "Каталог",
     },
     {
-        path: "#service",
+        path: "About",
         display: "Про нас",
     },
     {
-        path: "#portfolio",
+        path: "Contacts",
         display: "Конаткты",
     }
 ];

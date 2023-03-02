@@ -2,6 +2,7 @@ import React from 'react'
 import CatalogItem from '../components/catalog/CatalogItem'
 import Image from 'next/image'
 import Motor1 from '../public/motor1.png'
+import Loading from '../public/btnloading.svg'
 
 
 
@@ -216,6 +217,21 @@ export default function Catalog() {
                         </div>
                         <p className='text-[24px] text-[#3D3D3D] mb-[52px]' >Подвесные бензиновые моторы</p>
                         <button className='py-[17px] px-[129px] bg-[#2A96CD] text-white'>Позвонить</button>
+                    </div>
+                </div>
+                <div className='ml-[52px] mr-[57px] mt-[48px] mb-[62px]'>
+                    <div className='flex items-center gap-6 relative justify-between'>
+                        <button className='border-[#A6B5CA] border-[1px] py-[22px] px-[28px] flex items-center gap-6'>Увидеть больше
+                            <Image src={Loading} alt='/' />
+                        </button>
+                        <div className='flex items-center gap-6'>
+                            <div className='w-[46px] h-[46px] flex items-center justify-center rounded-full border-[1px] border-[#2A96CD] text-[#2A96CD] hover:bg-[#2A96CD] hover:text-white'>
+                                1
+                            </div>
+                            <div className='w-[46px] h-[46px] flex items-center justify-center rounded-full border-[1px] border-[#2A96CD] text-[#2A96CD] hover:bg-[#2A96CD] hover:text-white'>
+                                2
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
