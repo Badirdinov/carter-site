@@ -1,0 +1,69 @@
+.contact {
+    padding-top: 152px;
+    display: flex;
+    align-items: center;
+    border-collapse: collapse;
+
+    .contact__item {
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #A6B5CA;
+        padding: 68px 198px 163px 114px;
+        max-width: 908px;
+        width: 100%;
+
+        h3 {
+            font-weight: 700;
+            font-size: 72px;
+            line-height: 150%;
+            letter-spacing: 0.04em;
+            color: #385981;
+            margin-bottom: 28px;
+        }
+
+        .inputs {
+
+            form {
+                padding-left: 90px;
+
+                label {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 150%;
+                    letter-spacing: 0.04em;
+                    color: #385981;
+                }
+
+                input {
+                    display: block;
+                    border-bottom: 1px solid #385981;
+                    margin-bottom: 52px;
+                    max-width: 443px;
+                    width: 100%;
+                    height: 48px;
+
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .text {
+        border: 1px solid rgba(56, 89, 129, 0.42);
+
+        h3{
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            font-weight: 600;
+            font-size: 120px;
+            line-height: 150%;
+            padding: 72px 17px;
+            text-transform: uppercase;
+            color: transparent;
+            -webkit-text-stroke: 1px rgba(56, 89, 129, 0.42);
+        }
+    }
+}

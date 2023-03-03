@@ -22,7 +22,7 @@ export default function Catalog() {
                     </div>
                 </div>
                 <div className=' flex flex-wrap justify-center'>
-                    <div className='text-center py-[28px]  max-w-[454px] w-full border-[#A6B5CA] border-[1px]'>
+                    <div className='text-center py-[28px]  max-w-[454px] w-full border-[#A6B5CA] border-[1px] border-collapse'>
                         <div className='border-[#A6B5CA] border-[1px] mx-auto rounded-[125px] mb-[41px] max-w-[312px] w-full h-[438px] flex items-center justify-center'>
                             <Image className='' src={Motor1} alt='/' />
                         </div>

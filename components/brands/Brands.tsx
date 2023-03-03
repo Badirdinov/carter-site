@@ -28,40 +28,40 @@ export default function Brands() {
         <div className={styles.container}>
             <div className={styles.brands}>
                 <div className={styles.brand__title}>
-                    <h3>Бренды</h3>
+                    <h3 className='font-bold text-[48px] text-[#3D3D3D] mt-32 mr-0 mb-8 ml-20'>Бренды</h3>
                 </div>
                 <div className={styles.parent}>
                     <div className={styles.item}>
                         <div className={styles.brand__hover}>
-                            <ul>
+                            <ul className='bg-white w-full max-w-[455px] h-[449px] pt-[70px] pl-16 absolute top-0 left-0 '>
                                 <li>
-                                    <Link href='#'>Моторы
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Моторы
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Радары
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Радары
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Кондиционер
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Кондиционер
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Интерцептор
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Интерцептор
                                         <Image src={Arrow} alt='/' />
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Автопилот
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Автопилот
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
@@ -73,35 +73,35 @@ export default function Brands() {
                     </div>
                     <div className={styles.item}>
                         <div className={styles.brand__hover}>
-                            <ul>
+                            <ul  className='bg-white w-full max-w-[455px] h-[449px] pt-[70px] pl-16 absolute top-0 left-0 '>
                                 <li>
-                                    <Link href='#'>Моторы
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Моторы
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Радары
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Радары
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Кондиционер
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Кондиционер
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Интерцептор
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Интерцептор
                                         <Image src={Arrow} alt='/' />
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Автопилот
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Автопилот
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
@@ -113,35 +113,35 @@ export default function Brands() {
                     </div>
                     <div className={styles.item}>
                         <div className={styles.brand__hover}>
-                            <ul>
+                            <ul  className='bg-white w-full max-w-[455px] h-[449px] pt-[70px] pl-16 absolute top-0 left-0 '>
                                 <li>
-                                    <Link href='#'>Моторы
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Моторы
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Радары
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Радары
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Кондиционер
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Кондиционер
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Интерцептор
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Интерцептор
                                         <Image src={Arrow} alt='/' />
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Автопилот
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Автопилот
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
@@ -153,35 +153,35 @@ export default function Brands() {
                     </div>
                     <div className={styles.item}>
                         <div className={styles.brand__hover}>
-                            <ul>
+                            <ul  className='bg-white w-full max-w-[455px] h-[449px] pt-[70px] pl-16 absolute top-0 left-0 '>
                                 <li>
-                                    <Link href='#'>Моторы
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Моторы
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Радары
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Радары
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Кондиционер
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Кондиционер
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Интерцептор
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Интерцептор
                                         <Image src={Arrow} alt='/' />
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Автопилот
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Автопилот
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
@@ -197,33 +197,33 @@ export default function Brands() {
                         <div className={styles.brand__hover}>
                             <ul>
                                 <li>
-                                    <Link href='#'>Моторы
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Моторы
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Радары
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Радары
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Кондиционер
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Кондиционер
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Интерцептор
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Интерцептор
                                         <Image src={Arrow} alt='/' />
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Автопилот
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Автопилот
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
@@ -319,33 +319,33 @@ export default function Brands() {
                         <div className={styles.brand__hover}>
                             <ul>
                                 <li>
-                                    <Link href='#'>Моторы
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Моторы
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Радары
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Радары
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Кондиционер
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Кондиционер
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Интерцептор
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Интерцептор
                                         <Image src={Arrow} alt='/' />
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Автопилот
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Автопилот
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
@@ -359,33 +359,33 @@ export default function Brands() {
                         <div className={styles.brand__hover}>
                             <ul>
                                 <li>
-                                    <Link href='#'>Моторы
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Моторы
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Радары
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Радары
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Кондиционер
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Кондиционер
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Интерцептор
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Интерцептор
                                         <Image src={Arrow} alt='/' />
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Автопилот
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Автопилот
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
@@ -399,33 +399,33 @@ export default function Brands() {
                         <div className={styles.brand__hover}>
                             <ul>
                                 <li>
-                                    <Link href='#'>Моторы
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Моторы
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Радары
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Радары
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Кондиционер
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Кондиционер
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Интерцептор
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Интерцептор
                                         <Image src={Arrow} alt='/' />
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Автопилот
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Автопилот
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
@@ -439,33 +439,33 @@ export default function Brands() {
                         <div className={styles.brand__hover}>
                             <ul>
                                 <li>
-                                    <Link href='#'>Моторы
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Моторы
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Радары
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Радары
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Кондиционер
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Кондиционер
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Интерцептор
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Интерцептор
                                         <Image src={Arrow} alt='/' />
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='#'>Автопилот
+                                    <Link className='flex items-center font-semibold text-[32px] text-[#002656]' href='#'>Автопилот
                                         <span>
                                             <Image src={Arrow} alt='/' />
                                         </span>

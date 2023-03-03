@@ -8,18 +8,7 @@ import ArrowLeft from '../../public/arrowBtnLeft.svg'
 import ArrowRight from '../../public/arrowBtnRight.svg'
 import Project2 from '../../public/project2.png'
 
-var $ = require("jquery");
-if (typeof window !== "undefined") {
-    // Client-side-only code
-    window.$ = window.jQuery = require("jquery");
-}
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
-import dynamic from "next/dynamic";
 
-const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
-    ssr: false,
-});
 
 const Responsive = {
     0: {
@@ -61,28 +50,7 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className={styles.corusel}>
-                    <OwlCarousel
-                        responsive={Responsive}
-                    >
-                        <div className={styles.corusel__img}>
-                            <div className={styles.img__item}>
-                                1
-                            </div>
-                            <Image src={Project1} alt='/' />
-                        </div>
-                        <div className={styles.corusel__img}>
-                            <div className={styles.img__item}>
-                                2
-                            </div>
-                            <Image src={Project2} alt='/' />
-                        </div>
-                        <div className={styles.corusel__img}>
-                            <div className={styles.img__item}>
-                                3
-                            </div>
-                            <Image src={Project1} alt='/' />
-                        </div>
-                    </OwlCarousel>
+               
                 </div>
                 <div className={styles.corusel__btns}>
                     <div className={styles.corusel__btn}>

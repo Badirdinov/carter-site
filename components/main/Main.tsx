@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import styles from '../main/main.module.scss'
-
 import CardSvg from '../../public/detils.svg'
 
 
@@ -30,7 +29,6 @@ export default function Main() {
                 </div>
                 <div className={styles.main__slider}>
                     <div className={styles.box__slider}>
-
                     </div>
                 </div>
             </div>
